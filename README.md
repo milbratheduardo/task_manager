@@ -59,18 +59,27 @@ Multer (Upload de imagens)
 Clone o repositório:
 
 git clone https://github.com/seu-usuario/task-manager.git
-cd task-manager
 
 Backend (API)
+
 cd backend
+
 npm install
+
 npm run dev
+
 O servidor será iniciado em http://localhost:8000.
 
 Frontend (Interface)
+
 cd frontend
+
+cd task-manager
+
 npm install
+
 npm run dev
+
 O frontend será iniciado em http://localhost:5173.
 
 🔐 Rotas e Permissões
@@ -96,6 +105,8 @@ Gestão visual de tarefas com filtros e gráficos
 Experiência responsiva e leve
 
 Algumas funcionalidades extras como testes automatizados e upload múltiplo de arquivos podem ser adicionados em versões futuras.
+
+Para cadastrar um Admin, o invite code é 458894, mas este valor está também no .env
 
 
 

@@ -1,4 +1,5 @@
 🚀 Task Manager
+
 Aplicação completa de gerenciamento de tarefas inspirada em ferramentas como ClickUp e Trello.
 
 📚 Sobre o Projeto

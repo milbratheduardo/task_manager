@@ -232,14 +232,6 @@ export const updateTaskStatus = async (req: AuthenticatedRequest, res: Response)
   }
 };
 
-// Tipagem para req.user
-interface AuthenticatedRequest extends Request {
-  user?: {
-    _id: string;
-    role: "admin" | "member";
-  };
-}
-
 export const updateTaskChecklist = async (req: AuthenticatedRequest, res: Response) => {
   try {
     const task = await Task.findById(req.params.id);

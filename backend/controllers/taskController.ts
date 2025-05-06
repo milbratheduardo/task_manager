@@ -232,12 +232,6 @@ export const updateTaskStatus = async (req: AuthenticatedRequest, res: Response)
   }
 };
 
-// @desc    Atualiza checklist de uma tarefa 
-// @route   PUT /api/tarefas/:id/fazer
-// @access  Privado
-import { Response } from "express";
-import Task from "../models/Task";
-
 // Tipagem para req.user
 interface AuthenticatedRequest extends Request {
   user?: {
